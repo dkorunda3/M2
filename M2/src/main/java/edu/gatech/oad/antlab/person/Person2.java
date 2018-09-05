@@ -36,10 +36,10 @@ public class Person2 {
             Random r = new Random();
             String randShuffled = "";
             while (count > 0) {
-	        int randP = r.nextInt(count - 1);
+	        int randP = r.nextInt(count);
 	        randShuffled += unusedChars.substring(randP, randP + 1);
 	        unusedChars = unusedChars.substring(0, randP) + unusedChars.substring(randP + 1,
-                unusedChars.length() - 1);
+                unusedChars.length());
 	        count--;
             }
             return randShuffled;
