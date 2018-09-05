@@ -1,4 +1,7 @@
 
+# Avoid ignoring the given resources jar file
+!resources.jar
+
 # Created by https://www.gitignore.io/api/java,macos,gradle,windows
 
 ### Java ###
