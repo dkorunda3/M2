@@ -1,7 +1,4 @@
 
-# Avoid ignoring the given resources jar file
-!resources.jar
-
 # Created by https://www.gitignore.io/api/java,macos,gradle,windows
 
 ### Java ###
@@ -91,6 +88,9 @@ gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+
+# Avoid ignoring the given resources jar file
+!resources.jar
 
 # Cache of project
 .gradletasknamecache
